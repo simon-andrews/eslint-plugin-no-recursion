@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-no-recursion",
+  "version": "0.1.0",
+  "description": "ESLint plugin for disallowing recursion.",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "recursion"
+  ],
+  "author": "Simon Andrews",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/no-recursion.js"
+  },
+  "devDependencies": {
+    "eslint": "latest"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.0.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simon-andrews/eslint-plugin-no-recursion/issues"
+  },
+  "homepage": "https://github.com/simon-andrews/eslint-plugin-no-recursion"
+}
