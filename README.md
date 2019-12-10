@@ -35,7 +35,7 @@ In your ESLint configuration file, add "no-recursion" to your list of plugins an
 "plugins": [
   "no-recursion"
 ],
-"rules": [
-  "no-recursion/no-recursion"
-]
+"rules": {
+  "no-recursion/no-recursion": "error"
+}
 ```
