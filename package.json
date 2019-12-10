@@ -7,7 +7,7 @@
     "eslint-plugin",
     "recursion"
   ],
-  "author": "Simon Andrews",
+  "author": "Simon Andrews (https://www.simonandrews.org)",
   "main": "index.js",
   "scripts": {
     "test": "node tests/no-recursion.js"
@@ -18,9 +18,11 @@
   "peerDependencies": {
     "eslint": ">=3.0.0"
   },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/simon-andrews/eslint-plugin-no-recursion/issues"
+  "engines": {
+    "node": ">=8.0.0"
   },
-  "homepage": "https://github.com/simon-andrews/eslint-plugin-no-recursion"
+  "license": "ISC",
+  "homepage": "https://github.com/simon-andrews/eslint-plugin-no-recursion",
+  "bugs": "https://github.com/simon-andrews/eslint-plugin-no-recursion/issues",
+  "repository": "github:simon-andrews/eslint-plugin-no-recursion"
 }

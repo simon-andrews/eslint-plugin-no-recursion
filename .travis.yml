@@ -1,1 +1,9 @@
 language: node_js
+
+# Only support modern Node versions (as of 2019-12-10)
+# https://nodejs.org/en/about/releases/
+node_js:
+  - 8  # maintenance LTS
+  - 10 # active LTS
+  - 12 # active LTS
+  - 13 # current
